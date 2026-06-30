@@ -1,0 +1,18 @@
+* {
+    text-align: center;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+h1 {
+    color: blue;
+}
+
+img {
+    width: 200px;
+    border-radius: 16px;
+    
+}
+
