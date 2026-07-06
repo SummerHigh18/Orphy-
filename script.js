@@ -6,5 +6,5 @@ theBtn.addEventListener('click', function() {
 })
 
 function randomNumber() {
-    console.log(Math.floor(Math.random() * 100) + 1)
+    console.log(`The random number is: ${Math.floor(Math.random() * 100) + 1}`)
 }
