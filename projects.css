@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital@0;1&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color:lightblue;
+    padding: 0 8px;
+}
+
+p {
+    font-size: 22px;
+    
+}
+
+h3{
+    font-family: 'Chelsea Market';
+    font-size: 26px;
+}
+h2 {
+    color: rebeccapurple;
+    font-family: 'Chelsea Market';
+    font-size: 38px;
+}
+
+h1 {
+
+    color: rebeccapurple;
+
+    font-size: 48px;
+    animation: move 2s ease-in-out infinite alternate; /* Took help of internet for this! */
+}
+
+
+#main-head {
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Chelsea Market';
+}
+
+#pedia {
+    width: 600px;
+    display: block;
+    padding-bottom: 8px;
+    margin: auto;
+}
+
+
+
+@keyframes move {
+    from {
+        transform: translateX(-40px);
+    }
+    to {
+        transform: translateX(40px);
+    }
+}
